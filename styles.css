@@ -154,3 +154,53 @@ a {
   margin-right: 110px;
   margin-bottom: 100px;
 }
+
+.action {
+  background-color: white;
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-box {
+  background-color: rgb(67, 67, 234);
+  margin: 110px;
+  display: flex;
+  flex: auto;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.action-text {
+  color: lightgray;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.action-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.action-description {
+  font-size: 18px;
+}
+
+.action-button {
+  background-color: rgb(67, 67, 234);
+  border: 2px solid lightgray;
+  color: lightgray;
+  padding: 5px 10px 10px 5px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.action-button-box {
+  display: flex;
+  flex: auto;
+  align-items: center;
+  justify-content: center;
+}
