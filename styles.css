@@ -204,3 +204,13 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+.footer {
+  font-size: 18px;
+  color: lightgray;
+  display: flex;
+  flex: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
